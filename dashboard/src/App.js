@@ -1,10 +1,38 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class App extends Component {
+import { Route, Switch } from "react-router-dom";
+
+import Header from "./components/Navbars/Header.jsx";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+
+import routes from "./routes.js";
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      backgroundColor: "black",
+      activeColor: "info"
+    };
+  }
+
   render() {
     return (
-      <div>
-        <h1>Hello React!</h1>
+      <div className="wrapper">
+        <Sidebar {...this.props} routes={routes} bgColor={this.state.backgroundColor} activeColor={this.state.activeColor}/>
+        <div className="main-panel">
+          <Header {...this.props} />
+          <Switch>
+            {routes.map((prop, key) => {
+              return (
+                <Route path={prop.layout + prop.path} component={prop.component} key={key} />
+              );
+            })}
+          </Switch>
+          <hr/>
+          <Footer />
+        </div>
       </div>
     );
   }

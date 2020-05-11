@@ -1,0 +1,9 @@
+1. Create a React Dashboard
+2. Display effective use of Redux state-management
+3. Use firebase for auth and database driven events
+4. Create a profile during Sign up. Display user card, which is minimal profile.
+5. Major functionalities:
+    - Registering a new user. Sign Up.
+    - Log In.
+    - Maintaining Profile (with Image Upload).
+    - Changing user profile
