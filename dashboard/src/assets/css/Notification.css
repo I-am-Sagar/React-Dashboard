@@ -1,0 +1,8 @@
+/* -------------------- Notifications.js CSS  ----------------------- */
+
+/* Card Plain */
+.card-plain { background: transparent; box-shadow: none; }
+
+.card-plain .card-header, .card-plain .card-footer {
+  margin-left: 0; margin-right: 0; background-color: transparent; 
+}

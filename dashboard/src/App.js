@@ -9,18 +9,10 @@ import Footer from "./components/Footer/Footer.jsx";
 import routes from "./routes.js";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      backgroundColor: "black",
-      activeColor: "info"
-    };
-  }
-
   render() {
     return (
       <div className="wrapper">
-        <Sidebar {...this.props} routes={routes} bgColor={this.state.backgroundColor} activeColor={this.state.activeColor}/>
+        <Sidebar {...this.props} routes={routes}/>
         <div className="main-panel">
           <Header {...this.props} />
           <Switch>

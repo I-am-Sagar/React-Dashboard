@@ -17,12 +17,11 @@ class Sidebar extends React.Component {
 
   render() {
     return (
-      <div className="sidebar" data-color={this.props.bgColor} data-active-color={this.props.activeColor}>
-        
-        <div className="logo">
-          <a href="/" ><img src={logo} alt="Orphan Medical" className="logo-img"/></a>
-        </div>
+      <div className="sidebar">
 
+        <div className="logo">
+          <a href="/" ><img src={logo} alt="Orphan Medical"/></a>
+        </div>
         <div className="sidebar-wrapper">
           <Nav>
             {this.props.routes.map((prop, key) => {

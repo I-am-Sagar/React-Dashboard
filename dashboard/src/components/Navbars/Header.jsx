@@ -2,15 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,
+  Dropdown, DropdownToggle, DropdownMenu, DropdownItem,
   Container
 } from "reactstrap";
 
@@ -105,9 +98,9 @@ class Header extends React.Component {
           </div>
 
           <NavbarToggler onClick={this.toggle}>
-            <span className="navbar-toggler-bar navbar-kebab" />
-            <span className="navbar-toggler-bar navbar-kebab" />
-            <span className="navbar-toggler-bar navbar-kebab" />
+            <span className="navbar-toggler-bar navbar-dots" />
+            <span className="navbar-toggler-bar navbar-dots" />
+            <span className="navbar-toggler-bar navbar-dots" />
           </NavbarToggler>
 
           <Collapse isOpen={this.state.isOpen} navbar className="justify-content-end">

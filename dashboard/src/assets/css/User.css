@@ -1,0 +1,33 @@
+/* ------------------------ User.js CSS --------------------------- */
+
+/* Buttons */
+.btn, .navbar .navbar-nav > a.btn {
+  cursor: pointer; line-height: 1.35em;
+  font-weight: 600; font-size: 0.85em; text-transform: uppercase;
+  margin: 10px 1px; padding: 11px 22px;
+  border-radius: 3px; border: none; border-width: 2px; 
+  background-color: #222; color: #FFFFFF;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  transition: all 150ms linear; 
+}
+  
+.btn-primary { background-color: #0094D6; color: #FFFFFF; }
+.btn-primary:hover { background-color: #0081ba; }
+.btn-round { border-width: 1px; border-radius: 30px; padding-right: 23px; padding-left: 23px; }
+
+/* Form */
+.form-control { border-radius: 4px; color: #222; font-size: 14px; }
+textarea.form-control { max-width: 100%; max-height: 80px; resize: none; }
+.card label { font-size: 0.86em; margin-bottom: 5px; color: #8f8f8f; }
+
+/* User Card */ 
+.title { font-weight: 700; }
+.description { color: #666; }
+p.description{ font-size: 0.9rem; }
+.card .image { overflow: hidden; height: 100px; position: relative; }
+.card-user .author { text-align: center; text-transform: none; margin-top: -77px; }
+.card-user .author a + p.description { margin-top: -7px; }
+.card-user .avatar { width: 8.4rem; height: 8.4rem; border: 3px solid #FFFFFF;
+  position: relative; border-radius: 50%; overflow: hidden; margin-bottom: 15px; }
+.card-user .card-body { min-height: 240px; }

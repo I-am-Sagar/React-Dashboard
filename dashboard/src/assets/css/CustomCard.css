@@ -1,0 +1,19 @@
+/* -------------------------- CustomCard.js CSS -------------------------- */
+
+/* Card Stats */
+.card-stats .card-body { padding: 15px 15px 0px; }
+.card-stats .card-body .numbers { text-align: right; font-size: 2em; }
+.card-stats .card-footer { padding: 0px 15px 15px; }
+.card-stats .card-footer hr { margin-top: 10px; margin-bottom: 15px; }
+
+/* Numbers */
+.card .numbers { font-size: 2em; }
+
+/* Card Category */
+.card-category { font-weight: 500; color: #444; font-size: 18px; }
+
+/* Stats */
+.stats i {
+  margin-right: 5px; position: relative;
+  top: 0px; color: #0094D6; 
+}

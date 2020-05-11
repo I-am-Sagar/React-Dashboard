@@ -1,12 +1,8 @@
 import React from 'react';
 
 import {
-  Card, 
-  CardBody,
-  Row,
-  Col,
-  CardTitle,
-  CardFooter
+  Card, CardBody, CardTitle, CardFooter,
+  Row, Col
 } from "reactstrap";
 
 import { Link } from "react-router-dom";

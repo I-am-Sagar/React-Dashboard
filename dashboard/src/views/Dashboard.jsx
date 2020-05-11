@@ -1,10 +1,8 @@
 import React from "react";
 
 import {
-  Card,
-  CardBody,
-  Row,
-  Col, 
+  Card, CardBody,
+  Row, Col, 
   Table
 } from "reactstrap";
 
@@ -20,7 +18,7 @@ let cards = [
   },
   {
     order: 2,
-    heading: "Completed Cases",
+    heading: "Finished Cases",
     count: 235,
     color: "#008000",
     icon: "fa fa-medkit fa-4x"
@@ -55,7 +53,7 @@ class Dashboard extends React.Component {
             <Card>
               <CardBody>
                 <Table responsive>
-                  <thead className="text-primary">
+                  <thead>
                     <tr>
                       <th>Client ID</th> 
                       <th>Patient's Name</th>

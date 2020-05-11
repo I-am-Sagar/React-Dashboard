@@ -2,15 +2,9 @@ import React from "react";
 
 import {
   Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardTitle,
-  FormGroup,
-  Form,
-  Input,
-  Row,
-  Col
+  Card, CardHeader, CardBody, CardTitle, 
+  FormGroup, Form, Input,
+  Row, Col
 } from "reactstrap";
 
 class User extends React.Component {

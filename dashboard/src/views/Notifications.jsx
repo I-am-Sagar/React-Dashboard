@@ -2,12 +2,8 @@ import React from "react";
 
 import {
   UncontrolledAlert,
-  Card,
-  CardHeader,
-  CardBody,
-  CardTitle,
-  Row,
-  Col
+  Card, CardHeader, CardBody, CardTitle,
+  Row, Col
 } from "reactstrap";
 
 class Notifications extends React.Component {

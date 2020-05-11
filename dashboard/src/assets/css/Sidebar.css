@@ -1,0 +1,47 @@
+/* --------------------- Sidebar.js CSS --------------------- */
+
+.sidebar {
+  position: fixed; top: 0; bottom: 0; left: 0; z-index: 1030;
+  height: 100%; width: 250px; border-right: 1px solid #ddd; 
+  background: white; 
+}
+
+.sidebar:before, .sidebar:after {
+  display: block; position: absolute; content: ""; opacity: 1;
+  width: 100%; height: 100%; top: 0; left: 0; 
+}
+
+.sidebar-wrapper {
+  position: relative; z-index: 4; padding-bottom: 100px;
+  height: calc(100vh - 75px); width: 250px; overflow: auto;
+}
+
+.sidebar .nav, .nav { margin-top: 20px; display: block; }
+
+.sidebar .nav li > a, .nav li > a {
+  margin: 10px 15px 0; padding: 10px 8px; display: block; position: relative;
+  text-decoration: none;  text-transform: uppercase; font-size: 0.9rem;
+  color: #000; opacity: 0.9; cursor: pointer;  line-height: 30px;
+}
+
+.sidebar .nav li:first-child { border-top: 1px rgba(0, 0, 0, 0.2) solid; }
+
+.sidebar .nav li.active > a, .sidebar .nav li.active > a > i { opacity: 1; }
+.sidebar .nav li:hover:not(.active) > a { opacity: 1; }
+
+.sidebar .nav i, .nav i {
+  position: relative; font-size: 24px; float: left; text-align: center;
+  margin-right: 12px; line-height: 30px; width: 34px; color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar .nav li.active > a,
+.sidebar .nav li.active > a i { color: #0094d6; opacity: 1; }
+
+.sidebar .nav p{ margin-bottom: 0; margin-top: 0; }
+
+.sidebar .sidebar-background {
+  position: absolute; z-index: 1; height: 100%; width: 100%; display: block;
+  top: 0; left: 0; background-size: cover; background-position: center center; 
+}
+
+.sidebar .logo, .logo { position: relative; padding: 0.7px 0.7rem; z-index: 4; }
