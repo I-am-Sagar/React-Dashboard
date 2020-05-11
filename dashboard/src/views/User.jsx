@@ -21,7 +21,7 @@ class User extends React.Component {
               <CardBody>
                 <div className="author">
                   <a href="/" onClick={e => e.preventDefault()}>
-                    <img alt="..." className="avatar border-gray" src={require("../assets/img/mike.jpg")} />
+                    <img alt="..." className="avatar border-gray" src={require("../assets/img/default-avatar.png")} />
                     <h5 className="title">Sagar Udasi</h5>
                   </a>
                   <p className="description">@I-am-Sagar</p>
@@ -66,8 +66,8 @@ class User extends React.Component {
                     </Col>
                     <Col className="pr-1" md="4">
                       <FormGroup>
-                        <label> Phone Number </label>
-                        <Input placeholder="+91 9876543210" type="number"/>
+                        <label> Password </label>
+                        <Input placeholder="Password" type="number"/>
                       </FormGroup>
                     </Col>
                   </Row>
@@ -96,8 +96,8 @@ class User extends React.Component {
                     </Col>
                     <Col className="pr-1" md="3">
                       <FormGroup>
-                        <label>Postal Code</label>
-                        <Input placeholder="ZIP Code" type="number"/>
+                        <label>Phone Number</label>
+                        <Input placeholder="+91 9876543210" type="number"/>
                       </FormGroup>
                     </Col>
                   </Row>

@@ -4,6 +4,7 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
 
 import App from "./App.js";
+import SignIn from "./views/SignIn";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -24,8 +25,9 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/admin" render={props => <App {...props} />} />
-      <Redirect to="/admin/dashboard" />
+      <Route path="/signin" render={props => <SignIn {...props} />} />
+      <Redirect to="/signin" />
     </Switch>
-  </Router>,
-  document.getElementById("root")
+  </Router>
+  , document.getElementById("root")
 );
