@@ -5,12 +5,9 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "history": "^4.10.0",
-    "node-sass": "^4.14.1",
-    "perfect-scrollbar": "^1.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-notification-alert": "0.0.12",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"
@@ -19,11 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/scss/dashboard.scss src/assets/css/dashboard.css",
-    "minify-sass": "node-sass src/assets/scss/dashboard.scss src/assets/css/dashboard.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/dashboard.scss src/assets/css/dashboard.css --source-map true"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "sass": "^1.26.5"
   }
 }
