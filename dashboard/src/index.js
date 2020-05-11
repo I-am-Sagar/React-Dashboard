@@ -6,7 +6,6 @@ import { Router, Route, Switch, Redirect } from "react-router-dom";
 import App from "./App.js";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "perfect-scrollbar/css/perfect-scrollbar.css";
 
 import "./assets/css/index.css";
 import "./assets/css/App.css";
