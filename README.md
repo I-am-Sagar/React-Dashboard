@@ -8,13 +8,13 @@
 
 **2. Dashboard Screen**
 
-![Dashboard](github/signin.png)
+![Dashboard](github/dashboard.png)
 
 **3. Notifications Screen**
 
-![Notifications](github/signin.png)
+![Notifications](github/notifications.png)
 
 **4. Profile Screen**
 
-![Profile](github/signin.png)
+![Profile](github/profile.png)
 
